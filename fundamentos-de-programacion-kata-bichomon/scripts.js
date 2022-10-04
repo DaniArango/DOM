@@ -3,7 +3,8 @@ let nombre = document.getElementById("gen-1");
 nombre.textContent= "Generasión 1 Pokimon";
 
 //Cambia el color de fondo de la primera generación de Pokimon.
-nombre.style.background= "violet" 
+let contenedor_1g = document.querySelector('.infocard-list-pkmn-lg');
+contenedor_1g.style.background = 'violet'
 
 //Imprime por consola la URL de la página.
 let url = document.URL
@@ -29,5 +30,5 @@ console.log(infocard);
 
 let voladores = (document.getElementsByClassName('itype flying'));
 for ( let cambio of voladores) {
-cambio.style.background = 'grey'}
+cambio.style.background = 'yellow'}
 
